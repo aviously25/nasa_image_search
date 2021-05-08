@@ -1,13 +1,13 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 function Home() {
-    return (
+  return (
     <>
       <Head>
         <title>NASA Image Search</title>
       </Head>
     </>
-    ) 
-  }
-  
- export default Home
+  );
+}
+
+export default Home;
