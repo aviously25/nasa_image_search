@@ -1,5 +1,13 @@
+import Head from 'next/head'
+
 function Home() {
-    return <div>Welcome to Next.js!</div>
+    return (
+    <>
+      <Head>
+        <title>NASA Image Search</title>
+      </Head>
+    </>
+    ) 
   }
   
  export default Home
