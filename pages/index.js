@@ -6,6 +6,7 @@ function Home() {
       <Head>
         <title>NASA Image Search</title>
       </Head>
+      <div id="bg"></div>
     </>
   );
 }
