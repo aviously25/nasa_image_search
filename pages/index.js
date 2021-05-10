@@ -27,6 +27,7 @@ function Home() {
         {/* Row for the Search */}
         <Row>
           <Col>
+            <h1 className="text-center text-white mb-5">NASA Image Search</h1>
             <SearchBar />
           </Col>
         </Row>
