@@ -1,4 +1,7 @@
 import Head from "next/head";
+import Image from "next/image";
+import { Container, Row, Col } from "react-bootstrap";
+import SearchBar from "../components/SearchBar";
 
 function Home() {
   return (
@@ -6,7 +9,28 @@ function Home() {
       <Head>
         <title>NASA Image Search</title>
       </Head>
-      <div id="bg"></div>
+
+      {/* Main Content Here */}
+      <Container>
+        {/* Row for the logo */}
+        <Row className="text-center p-5">
+          <Col>
+            <Image
+              src="/NASA_logo.svg"
+              alt="NASA Logo"
+              height={200}
+              width={200}
+            />
+          </Col>
+        </Row>
+
+        {/* Row for the Search */}
+        <Row>
+          <Col>
+            <SearchBar />
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 }
