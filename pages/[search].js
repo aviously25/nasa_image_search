@@ -7,6 +7,7 @@ const Search = ({ data }) => {
 
   return (
     <>
+      <Navbar />
       <div className="image-gallery">
         {data.collection.items.map((item, index) => (
           <div key={index} className="imgdiv">

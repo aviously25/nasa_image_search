@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
-import SearchBar from "../components/SearchBar";
+import { SearchBar } from "../components/";
 
 function Home() {
   return (
