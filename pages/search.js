@@ -1,9 +1,11 @@
-import { useRouter } from "next/router";
-import Image from "next/image";
-import { Navbar } from "../components/";
+import { Navbar, ImageCard } from "../components";
 
 const Search = ({ data }) => {
   console.log(data.collection);
+
+  const handleClick = (e) => {
+    console.log(e.target);
+  };
 
   return (
     <>
@@ -11,12 +13,10 @@ const Search = ({ data }) => {
       <div className="image-gallery">
         {data.collection.items.map((item, index) => (
           <div key={index} className="imgdiv">
-            <Image
-              src={item.links[0].href}
-              width={150}
-              height={150}
-              layout="responsive"
-              objectFit="contain"
+            <ImageCard
+              imgsrc={item.links[0].href}
+              data={item.data[0]}
+              onClick={handleClick}
             />
           </div>
         ))}

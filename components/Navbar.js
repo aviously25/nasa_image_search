@@ -7,7 +7,7 @@ const NasaNavbar = () => {
       <Navbar.Brand href="/">
         <img src="/NASA_logo.svg" width="85px" />
       </Navbar.Brand>
-      <div className="">
+      <div className="nav-search">
         <SearchBar />
       </div>
     </Navbar>
