@@ -19,3 +19,4 @@ This web app, which can be found at https://nasa-image-search-phi.vercel.app/, p
 - React-Bootstrap and SASS
 - ESLint and Prettier
 - Figma for desgin
+- And of course, the NASA Images API (https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf)
