@@ -19,4 +19,5 @@ This web app, which can be found at https://nasa-image-search-phi.vercel.app/, p
 - React-Bootstrap and SASS
 - ESLint and Prettier
 - Figma for desgin
+  - The figma file can be found here: https://www.figma.com/file/0PiqBq5ygj1bGYUREIVnBv/NASA-Image-Search?node-id=0%3A1
 - And of course, the NASA Images API (https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf)
