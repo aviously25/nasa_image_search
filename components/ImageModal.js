@@ -37,6 +37,9 @@ const ImageModal = ({ imgsrc, data, show, onHide }) => {
           <p>
             <strong>Date Created</strong>: {data.date_created.substr(0, 10)}
           </p>
+          <p>
+            <strong>Description</strong>: <em>{data.description}</em>
+          </p>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="outline-light" onClick={onHide}>

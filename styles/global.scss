@@ -21,9 +21,12 @@ body {
     background-size: 200px;
 }
 
+//Search Bar
 form.SearchBar{
     display: flex;
     position: relative;
+    max-width: 800px;
+    margin: auto;
 
     input{
         border-radius: 1000px;
