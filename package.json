@@ -99,7 +99,6 @@
     "nanoid": "^3.1.22",
     "native-url": "^0.3.4",
     "next": "^10.2.0",
-    "next-on-netlify": "^3.0.1",
     "node-fetch": "^2.6.1",
     "node-html-parser": "^1.4.9",
     "node-libs-browser": "^2.2.1",
@@ -205,8 +204,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export",
-    "postbuild": "next-on-netlify"
+    "export": "next build && next export"
   },
   "repository": {
     "type": "git",
