@@ -43,7 +43,6 @@
     "find-cache-dir": "^3.3.1",
     "find-up": "^4.1.0",
     "foreach": "^2.0.5",
-    "fsevents": "^2.3.2",
     "function-bind": "^1.1.1",
     "get-intrinsic": "^1.1.1",
     "get-orientation": "^1.1.2",
