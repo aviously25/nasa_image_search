@@ -1,9 +1,9 @@
 @use "sass:color";
 
-$theme-colors: (
-    "primary": #0B3D91,
-    "secondary": #FC3D21
-);
+//bootstrap color variable overrides
+$primary: #0B3D91;
+$secondary: #FC3D21;
+$dark: color.scale(#081832, $blackness:20%);
 
 @import "~bootstrap/scss/bootstrap";
 
@@ -14,10 +14,11 @@ body {
     background: #081832;
     background: linear-gradient(0deg,rgba(8,24,50,50) 0%, #081832 33%);
     min-height: 100vh;
+
+    //starry repeat
     background-image: url("../public/star_background.png");
     background-repeat: repeat;
     background-size: 200px;
-    padding:0;
 }
 
 form.SearchBar{
@@ -43,13 +44,10 @@ form.SearchBar{
 
     // Creates an auto-resizing grid for the best responsive experience
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); //adds columns in the grid as long as img is at least 300px wide
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); //adds columns in the grid as long as img is at least 300px wide
 
     .imgdiv{
         padding:20px;
-        .card{
-            background-color: color.scale(#081832, $blackness:20%);
-        }
         img{
             border-radius: 2px;
         }
@@ -57,11 +55,25 @@ form.SearchBar{
 }
 
 nav.navbar {
-    background-color: #081832;
-    
     .nav-search{
         flex-grow:1;
+        max-width: 500px;
     }
 }
+
+.modal{
+    .modal-content{
+        background-color: $dark;
+        color:white;
+        
+        .modal-header{
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
 
 

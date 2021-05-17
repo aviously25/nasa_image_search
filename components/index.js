@@ -2,5 +2,6 @@
 import Navbar from "./Navbar.js";
 import SearchBar from "./SearchBar.js";
 import ImageCard from "./ImageCard.js";
+import ImageModal from "./ImageModal.js";
 
-export { Navbar, SearchBar, ImageCard };
+export { Navbar, SearchBar, ImageCard, ImageModal };

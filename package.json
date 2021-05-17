@@ -167,6 +167,7 @@
     "stylis": "^3.5.4",
     "stylis-rule-sheet": "^0.0.10",
     "supports-color": "^5.5.0",
+    "swr": "^0.5.6",
     "timers-browserify": "^2.0.12",
     "to-arraybuffer": "^1.0.1",
     "to-fast-properties": "^2.0.0",
