@@ -1,4 +1,4 @@
-# nasa_image_search
+# NASA Image Search
 This web app, which can be found at https://nasa-image-search-phi.vercel.app/, provides a frontend for the nasa images api. 
 
 ## Features
