@@ -5,7 +5,7 @@ const SearchBar = () => {
     <Form className="SearchBar" action="/search/" method="get">
       <Form.Control type="text" placeholder="eg: Orion" name="q" />
       <Button variant="secondary" type="submit">
-        <img src="/Magnifying_glass_icon.svg"></img>
+        <img src="/Magnifying_glass_icon.svg" alt="search icon"></img>
       </Button>
     </Form>
   );

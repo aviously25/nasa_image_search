@@ -208,12 +208,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aviously25/nasa-image-search.git"
+    "url": "git+https://github.com/aviously25/nasa_image_search.git"
   },
   "author": "Avi Udash",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aviously25/nasa-image-search/issues"
+    "url": "https://github.com/aviously25/nasa_image_search/issues"
   },
-  "homepage": "https://github.com/aviously25/nasa-image-search#readme"
+  "homepage": "https://github.com/aviously25/nasa_image_search#readme"
 }
